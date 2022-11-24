@@ -9,15 +9,15 @@ public class DataBaseConnection {
         if(connection!=null){
             return connection;
         }
-        String db="search";
-        String user="root";
-        String pwd="swarna@SQL99";
+        String db="sql6580069";
+        String user="sql6580069";
+        String pwd="daiQgg8MAR";
         return getConnection(db,user,pwd);
     }
     private static Connection getConnection(String db,String user,String pwd){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection= DriverManager.getConnection("jdbc:mysql://localhost/"+db+"?user="+user+"&password="+pwd);
+            connection= DriverManager.getConnection("jdbc:mysql://sql6.freesqldatabase.com/"+db+"?user="+user+"&password="+pwd);
         }
         catch(Exception exception){
             exception.printStackTrace();
