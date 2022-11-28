@@ -5,8 +5,13 @@
 <body>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <title>History</title>
 </head>
 <body>
+   <form action ="Home">
+
+        <button type="submit">Home</button>
+      </form>
    <div class="resultTable">
 
    <table border =2>
