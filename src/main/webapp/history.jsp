@@ -8,7 +8,9 @@
   <title>History</title>
 </head>
 <body>
-
+     <form action="Home">
+            <button type="submit">Back to HomePage</button>
+         </form>
    <div class="resultTable">
 
    <table border =2>
